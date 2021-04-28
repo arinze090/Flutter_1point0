@@ -43,7 +43,28 @@ class HelloWorldApp extends StatelessWidget {
               Expanded(
                 child: Row(
                   children: [
-                    Container(
+                    Expanded(
+                      child:Container(
+                      height: 200,
+                      width: 300,
+                      decoration: BoxDecoration(
+                       color: Colors.black26,
+                      ),
+                      alignment: Alignment.center,
+                      margin: EdgeInsets.all(20),
+                      child: Text(
+                        'Hello world',
+                       textDirection: TextDirection.ltr,
+                       style: TextStyle(
+                       fontSize: 20,
+                       color: Colors.white,
+                       fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -61,7 +82,29 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Container(
+                ),
+                    Expanded(
+                      child: Container(
+                      height: 200,
+                      width: 300,
+                      decoration: BoxDecoration(
+                        color: Colors.black26
+                      ),
+                      alignment: Alignment.center,
+                      margin: EdgeInsets.all(20),
+                      child: Text(
+                        'Hello world',
+                        textDirection: TextDirection.ltr,
+                        style: TextStyle(
+                          fontSize: 20,
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                    Expanded(
+                      child: Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -79,41 +122,6 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Container(
-                      height: 200,
-                      width: 300,
-                      decoration: BoxDecoration(
-                        color: Colors.black26,
-                      ),
-                      alignment: Alignment.center,
-                      margin: EdgeInsets.all(20),
-                      child: Text(
-                        'Hello world',
-                        textDirection: TextDirection.ltr,
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                    Container(
-                      height: 200,
-                      width: 300,
-                      decoration: BoxDecoration(
-                        color: Colors.black26,
-                      ),
-                      alignment: Alignment.center,
-                      margin: EdgeInsets.all(20),
-                      child: Text(
-                        'Hello world',
-                        textDirection: TextDirection.ltr,
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
                     ),
                   ],
                 ),
